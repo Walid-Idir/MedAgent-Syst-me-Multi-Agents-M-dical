@@ -1,0 +1,8 @@
+{
+  "dependencies": [
+    "-r requirements.txt"
+  ],
+  "graphs": {
+    "medical": "app.graph:graph"
+  }
+}

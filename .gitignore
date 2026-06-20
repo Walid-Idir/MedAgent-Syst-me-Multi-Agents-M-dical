@@ -1,0 +1,48 @@
+# Environments (matches any depth)
+.venv/
+**/.venv/
+venv/
+**/venv/
+env/
+**/env/
+
+# Dependencies
+node_modules/
+**/node_modules/
+
+# Python cache & bytecode
+__pycache__/
+**/__pycache__/
+*.py[cod]
+*.class
+.pytest_cache/
+*.pckl
+**/.langgraph_api/
+
+# Environment variables & API keys
+.env
+**/.env
+.env.*
+**/.env.*
+!.env.example
+!**/.env.example
+
+# Logs & databases
+*.log
+**/*.log
+*.sqlite3
+**/*.sqlite3
+
+# Documents & heavy media
+*.pdf
+*.mp4
+*.rar
+*.zip
+
+# IDE & OS
+.vscode/
+**/.vscode/
+.idea/
+**/.idea/
+.DS_Store
+Thumbs.db

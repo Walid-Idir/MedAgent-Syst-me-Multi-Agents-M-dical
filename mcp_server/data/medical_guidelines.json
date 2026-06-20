@@ -1,0 +1,122 @@
+[
+  {
+    "symptom": "Fièvre",
+    "keywords": ["fièvre", "température", "chaud", "frisson", "pyrexie"],
+    "severity_indicators": "Légère (<38.5°C), Modérée (38.5-39.5°C), Sévère (>39.5°C)",
+    "general_advice": "Repos, hydratation abondante, paracétamol si besoin. Surveiller la température toutes les 4h.",
+    "red_flags": ["Fièvre >40°C", "Fièvre persistante >3 jours", "Raideur de la nuque", "Confusion", "Éruption cutanée pétéchiale"],
+    "recommended_action": "Consultation si fièvre >39°C persistante ou présence de drapeaux rouges."
+  },
+  {
+    "symptom": "Toux",
+    "keywords": ["toux", "tousser", "expectoration", "crachat"],
+    "severity_indicators": "Sèche ou productive, durée <3 semaines (aiguë) ou >3 semaines (chronique)",
+    "general_advice": "Hydratation, miel et citron, éviter les irritants (tabac, poussière). Humidifier l'air ambiant.",
+    "red_flags": ["Hémoptysie (sang dans les crachats)", "Dyspnée sévère", "Toux >3 semaines", "Perte de poids associée"],
+    "recommended_action": "Consultation si toux persistante, productive purulente, ou accompagnée de fièvre élevée."
+  },
+  {
+    "symptom": "Maux de tête",
+    "keywords": ["maux de tête", "céphalée", "migraine", "mal à la tête", "céphalées"],
+    "severity_indicators": "Tension (bilatéral, en casque), Migraine (unilatéral, pulsatile), Secondaire (brutal, intense)",
+    "general_advice": "Repos dans un endroit calme et sombre, hydratation, paracétamol ou ibuprofène selon tolérance.",
+    "red_flags": ["Céphalée brutale et intense ('coup de tonnerre')", "Raideur de la nuque", "Troubles visuels", "Fièvre associée", "Après un traumatisme crânien"],
+    "recommended_action": "Consultation urgente si céphalée brutale intense ou associée à des signes neurologiques."
+  },
+  {
+    "symptom": "Douleur thoracique",
+    "keywords": ["douleur thoracique", "douleur poitrine", "mal à la poitrine", "oppression thoracique"],
+    "severity_indicators": "Musculo-squelettique (positionnelle), Cardiaque (oppressive, irradiant), Pulmonaire (pleurale)",
+    "general_advice": "Évaluation médicale recommandée. Ne pas ignorer une douleur thoracique.",
+    "red_flags": ["Douleur oppressive irradiant au bras gauche/mâchoire", "Dyspnée associée", "Sueurs froides", "Malaise", "Antécédents cardiaques"],
+    "recommended_action": "⚠️ Appeler les urgences (15/112) si suspicion cardiaque. Consultation immédiate dans tous les cas."
+  },
+  {
+    "symptom": "Fatigue",
+    "keywords": ["fatigue", "épuisement", "asthénie", "fatigué", "manque d'énergie"],
+    "severity_indicators": "Légère (fonctionnelle), Modérée (impacte les activités), Sévère (invalidante)",
+    "general_advice": "Sommeil régulier (7-9h), alimentation équilibrée, activité physique modérée, gestion du stress.",
+    "red_flags": ["Fatigue inexpliquée >2 semaines", "Perte de poids involontaire", "Fièvre associée", "Adénopathies"],
+    "recommended_action": "Consultation si fatigue persistante inexpliquée. Bilan sanguin recommandé."
+  },
+  {
+    "symptom": "Essoufflement",
+    "keywords": ["essoufflement", "dyspnée", "difficulté à respirer", "souffle court"],
+    "severity_indicators": "À l'effort (léger), au repos (modéré à sévère), avec cyanose (urgence)",
+    "general_advice": "Position assise, respiration calme et profonde. Éviter les efforts.",
+    "red_flags": ["Dyspnée au repos", "Cyanose (lèvres/doigts bleus)", "Douleur thoracique associée", "Stridor", "Début brutal"],
+    "recommended_action": "⚠️ Consultation urgente si dyspnée au repos ou d'apparition brutale."
+  },
+  {
+    "symptom": "Douleur abdominale",
+    "keywords": ["douleur abdominale", "mal au ventre", "douleur estomac", "crampe abdominale"],
+    "severity_indicators": "Diffuse (fonctionnelle), Localisée (organique possible), Aiguë (chirurgicale possible)",
+    "general_advice": "Repos digestif, alimentation légère, hydratation. Éviter les anti-inflammatoires.",
+    "red_flags": ["Défense abdominale", "Ventre de bois", "Vomissements de sang", "Arrêt des matières et des gaz", "Fièvre élevée associée"],
+    "recommended_action": "Consultation rapide si douleur intense, localisée, ou avec signes de gravité."
+  },
+  {
+    "symptom": "Nausée et vomissements",
+    "keywords": ["nausée", "vomissement", "vomir", "envie de vomir", "nausées"],
+    "severity_indicators": "Isolés (bénin), Répétés (déshydratation), Avec sang (urgence)",
+    "general_advice": "Repos, hydratation par petites gorgées (eau, bouillon), alimentation légère progressive.",
+    "red_flags": ["Vomissements de sang", "Déshydratation sévère", "Douleur abdominale intense", "Confusion", "Vomissements >24h"],
+    "recommended_action": "Consultation si vomissements persistants >24h ou présence de sang."
+  },
+  {
+    "symptom": "Diarrhée",
+    "keywords": ["diarrhée", "selles liquides", "diarrhéique", "gastro-entérite"],
+    "severity_indicators": "Aiguë (<14j, souvent virale), Chronique (>14j, investigation nécessaire)",
+    "general_advice": "Hydratation+++ (solution de réhydratation orale), alimentation pauvre en fibres, riz, bananes.",
+    "red_flags": ["Sang dans les selles", "Fièvre élevée", "Déshydratation (soif intense, urines foncées)", "Diarrhée >5 jours"],
+    "recommended_action": "Consultation si diarrhée sanglante, fièvre élevée, ou signes de déshydratation."
+  },
+  {
+    "symptom": "Mal de gorge",
+    "keywords": ["mal de gorge", "angine", "pharyngite", "gorge irritée", "douleur gorge"],
+    "severity_indicators": "Virale (progressive, bilatérale), Bactérienne (brutale, fièvre, exsudat)",
+    "general_advice": "Gargarismes eau salée tiède, pastilles pour la gorge, boissons chaudes, miel.",
+    "red_flags": ["Difficulté à avaler la salive", "Trismus (difficulté à ouvrir la bouche)", "Tuméfaction cervicale", "Dyspnée"],
+    "recommended_action": "Consultation si fièvre >38.5°C avec amygdales exsudatives (TDR streptocoque)."
+  },
+  {
+    "symptom": "Congestion nasale",
+    "keywords": ["congestion", "nez bouché", "rhinite", "rhume", "écoulement nasal"],
+    "severity_indicators": "Aiguë (rhume, 7-10j), Chronique (>12 semaines, investigation)",
+    "general_advice": "Lavage nasal au sérum physiologique, inhalation de vapeur, hydratation.",
+    "red_flags": ["Écoulement purulent unilatéral", "Douleur faciale intense", "Épistaxis récurrente", "Fièvre >38.5°C"],
+    "recommended_action": "Consultation si symptômes >10 jours sans amélioration ou suspicion de sinusite."
+  },
+  {
+    "symptom": "Éruption cutanée",
+    "keywords": ["éruption", "rash", "boutons", "démangeaison", "urticaire", "eczéma"],
+    "severity_indicators": "Localisée (contact/allergique), Généralisée (infectieuse/systémique)",
+    "general_advice": "Éviter de gratter, compresses fraîches, antihistaminique oral si démangeaisons.",
+    "red_flags": ["Éruption purpurique (ne s'efface pas à la pression)", "Fièvre associée", "Œdème du visage/lèvres", "Difficulté respiratoire"],
+    "recommended_action": "⚠️ Urgence si purpura fébrile ou signes d'anaphylaxie."
+  },
+  {
+    "symptom": "Vertiges",
+    "keywords": ["vertige", "étourdissement", "tête qui tourne", "perte d'équilibre"],
+    "severity_indicators": "Positionnel (VPPB), Rotatoire (vestibulaire), Lipothymie (pré-syncope)",
+    "general_advice": "S'asseoir ou s'allonger, éviter les mouvements brusques, hydratation.",
+    "red_flags": ["Déficit neurologique associé", "Céphalée brutale", "Diplopie", "Troubles de la parole", "Perte auditive brutale"],
+    "recommended_action": "Consultation urgente si signes neurologiques associés (suspicion AVC)."
+  },
+  {
+    "symptom": "Douleur musculaire",
+    "keywords": ["courbature", "myalgie", "douleur musculaire", "courbatures", "muscle"],
+    "severity_indicators": "Post-effort (bénin), Diffuses avec fièvre (infectieuse), Localisées intenses (lésion)",
+    "general_advice": "Repos, étirements doux, chaleur locale, paracétamol, hydratation.",
+    "red_flags": ["Urines foncées (rhabdomyolyse)", "Faiblesse musculaire progressive", "Fièvre élevée", "Impossibilité de bouger un membre"],
+    "recommended_action": "Consultation si douleurs musculaires intenses avec urines foncées ou fièvre."
+  },
+  {
+    "symptom": "Insomnie",
+    "keywords": ["insomnie", "trouble du sommeil", "difficulté à dormir", "sommeil"],
+    "severity_indicators": "Transitoire (<1 semaine), Court terme (1-4 semaines), Chronique (>1 mois)",
+    "general_advice": "Hygiène du sommeil : horaires réguliers, éviter écrans avant le coucher, limiter caféine, exercice en journée.",
+    "red_flags": ["Apnées du sommeil observées", "Somnolence diurne dangereuse", "Idées suicidaires", "Consommation de substances"],
+    "recommended_action": "Consultation si insomnie chronique >1 mois impactant le fonctionnement quotidien."
+  }
+]
